@@ -1,16 +1,27 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: lab(100% 0.01 -0.01);
-  color: #333;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: #fffefb;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    #6e5e5e,
+    #9ab7c5 1px,
+    transparent 1px,
+    transparent 2rem
+  );
+  background-size: 100% 2rem;
+  color: #3b2f2f;
   margin: 0;
-  padding: 0;
+  padding: 2rem;
+  min-height: 100vh;
 }
 
 header {
-  background-color: #abb2ee;
+  background-color: #c78cbd;
   text-align: center;
-  padding: 2em 1em 2em;
-  border-radius: 40px 40px 40px 40px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 16px;
+
 }
 
 h1 {
@@ -23,7 +34,7 @@ main {
 }
 
 #checklist, #prayers {
-  background-color: #b9beec;
+  background-color: #c78cbd;
   text-align: center;
   padding: 1.2rem;
   margin-bottom: 1rem;
@@ -68,8 +79,8 @@ input[type="text"] {
 button {
   padding: 0.6rem 1rem;
   margin-left: 0.5rem;
-  background-color: #60a5fa;
-  color: white;
+  background-color: #FFFBF1;
+  color: rgb(59, 45, 33);
   border: none;
   border-radius: 8px;
   cursor: pointer;
