@@ -1,0 +1,86 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: lab(100% 0.01 -0.01);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #abb2ee;
+  text-align: center;
+  padding: 2em 1em 2em;
+  border-radius: 40px 40px 40px 40px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.2rem;
+}
+
+main {
+  padding: 1.5rem;
+}
+
+#checklist, #prayers {
+  background-color: #b9beec;
+  text-align: center;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+  padding: 0.6rem;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.task{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 0.5rem;
+   padding: 0.7rem;
+   background-color: #f9fafb;
+   border-radius: 10px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.task.low{ border-left: 6px solid #acd6fd;}
+.task.medium { border-left: 6px solid #facc15; }
+.task.high{ border-left: 6px solid rgba(161, 38, 38, 0.952);}
+
+.task.done{
+   text-decoration: line-through;
+   opacity: 0.6;
+}
+
+.task-buttons button {
+  margin-left: 0.3rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+} 
+
+button {
+  padding: 0.6rem 1rem;
+  margin-left: 0.5rem;
+  background-color: #60a5fa;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3b82f6;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  color: #666;
+}
